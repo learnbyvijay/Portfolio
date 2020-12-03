@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Portfolio || Vijay Kasundra</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="protfoliocss.css">
+</head>
+
+<body>
+	<header>
+		<a href="#" class="logo">Portfolio</a>
+		<div class="toggle" onclick="toggleMenu();"></div>
+		<ul class="menu" onclick="toggleMenu();">
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#About">About</a></li>
+			<li><a href="#Service">Service</a></li>
+			<li><a href="#Work">Work</a></li>
+			<li><a href="#Contact-Us">Contact-Us</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="Home">
+		<div class="textBx">
+			<h2>Hello, I'm<br><br><span> Vijay kasundra</span></h2>
+			<h3>I'm a <span></span></h3>
+			<a href="#" class="btn">My Profile</a>
+		</div>
+	</section>
+	<section class="about" id="About">
+		<div class="heading">
+			<h2>About Me</h2>
+		</div>
+		<div class="content">
+			<div class="contentBx ">
+				<h3>I'm a front End Web Developer</h3>
+				<p>W3Schools is optimized for learning and training. Examples might be simplified to improve 	reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using W3Schools, you agree to have read and accepted our terms of use, cookie and privacy policy.<br><br>
+					W3Schools is optimized for learning and training. Examples might be simplified to improve 	reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using W3Schools, you agree to have read and accepted our terms of use, cookie and privacy policy.<br>
+					
+				</p>
+			</div>
+			<div class="w50">
+				<img src="img1.jpg">
+			</div>
+		</div>
+	</section>
+	<section class="services" id="Service">
+		<div class="heading white">
+			<h2>Services</h2>
+			<p>I will done some project develop any website with different language.</p>
+		</div>
+		<div class="content">
+			<div class="servicesBx">
+				<img src="img1.jpg">
+				<h2>Web Design</h2>
+				<p>W3Schools is optimized for learning and training. Examples might be simplified to improve 	reading and learning.</p>
+			</div>
+			<div class="servicesBx">
+				<img src="img2.jpg">
+				<h2>Web Design</h2>
+				<p>W3Schools is optimized for learning and training. Examples might be simplified to improve 	reading and learning.</p>
+			</div>
+			<div class="servicesBx">
+				<img src="img1.jpg">
+				<h2>Web Design</h2>
+				<p>W3Schools is optimized for learning and training. Examples might be simplified to improve 	reading and learning.</p>
+			</div>
+			<br>
+			<div class="servicesBx">
+				<img src="img2.jpg">
+				<h2>Web Design</h2>
+				<p>W3Schools is optimized for learning and training. Examples might be simplified to improve 	reading and learning.</p>
+			</div>
+			<div class="servicesBx">
+				<img src="img1.jpg">
+				<h2>Web Design</h2>
+				<p>W3Schools is optimized for learning and training. Examples might be simplified to improve 	reading and learning.</p>
+			</div>
+			<div class="servicesBx">
+				<img src="img2.jpg">
+				<h2>Web Design</h2>
+				<p>W3Schools is optimized for learning and training. Examples might be simplified to improve 	reading and learning.</p>
+			</div>
+		</div>
+	</section>
+	<section class="work" id="Work">
+		<div class="heading">
+			<h2>Our Latest Work</h2>
+			<p>I will done some project develop any website with different language.</p>
+		</div>
+		<div class="content">
+			<div class="workBx">
+				<img src="img1.jpg">				
+			</div>
+			<div class="workBx">
+				<img src="img2.jpg">				
+			</div>
+			<div class="workBx">
+				<img src="img1.jpg">				
+			</div>
+			<br>
+			<div class="workBx">
+				<img src="img2.jpg">				
+			</div>
+			<div class="workBx">
+				<img src="img1.jpg">	
+			</div>
+			<div class="workBx">
+				<img src="img2.jpg">
+			</div>
+
+		</div>
+		<div class="heading">
+			<a href="#" class="view">View More</a>
+		</div>
+		
+	</section>
+	<section class="contact" id="Contact-Us">
+		<div class="heading white">
+			<h2 class="con">Contact-Us</h2>
+			<p class="info">Mo:-8758153670</p><br>
+			<p class="info">Email:-vijaykasundra99@gmail.com</p>
+		</div>
+	</section>
+		
+<script>
+	window.addEventListener('scroll',function(){
+		var header = document.querySelector('header');
+		header.classList.toggle('sticky',window.scrollY >0);
+	});
+	function toggleMenu(){
+		var menuToggle = document.querySelector('.toggle');
+		var menu = document.querySelector('.menu');		
+		menuToggle.classList.toggle('active');
+		menu.classList.toggle('active');
+	}
+</script>
+</body>
+</html>
