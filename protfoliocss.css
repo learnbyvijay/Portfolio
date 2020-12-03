@@ -176,9 +176,6 @@ header.sticky ul li a{
 	min-width:80%;
 	max-width:100%;
 }
-.w50 img:hover{
-	transform:scale(0.8);
-}
 .services{
 	background-color:#111;
 	margin-top:-5rem;
@@ -232,7 +229,7 @@ header.sticky ul li a{
 	padding-left:7rem;
 }
 .work .content .workBx:hover{
-	transform:translateY(-2rem);
+	transform:translateY(-5px);
 }
 .work .content .workBx img{
 	max-width:80%;
